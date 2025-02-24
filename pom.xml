@@ -4,22 +4,22 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>in.zapr.druid</groupId>
+    <groupId>ajainy.oss.druid</groupId>
     <artifactId>druidry</artifactId>
-    <version>3.2-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <name>Druidry - Druid Java Client</name>
     <description>Druidry is an open-source Java based utility library which supports creating
         query to Druid and connection handling with Druid
     </description>
-    <url>https://github.com/zapr-oss/druidry</url>
+    <url>https://github.com/ajainy/open-druidry</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jackson.databind.version>2.9.10.4</jackson.databind.version>
         <jackson.datatype.version>2.9.9</jackson.datatype.version>
         <jodatime.version>2.9.7</jodatime.version>
-        <lombok.version>1.18.10</lombok.version>
+        <lombok.version>1.18.20</lombok.version>
         <testng.version>6.11</testng.version>
         <logback.version>1.2.1</logback.version>
         <jsonassert.version>1.4.0</jsonassert.version>
@@ -235,6 +235,7 @@
         </license>
     </licenses>
 
+<!--
     <developers>
         <developer>
             <name>Gagan Gupta</name>
@@ -255,11 +256,12 @@
             <organizationUrl>https://www.zapr.in</organizationUrl>
         </developer>
     </developers>
+-->
 
     <scm>
-        <connection>scm:git:git://github.com/zapr-oss/druidry.git</connection>
-        <developerConnection>scm:git:ssh://github.com:zapr-oss/druidry.git</developerConnection>
-        <url>https://github.com/zapr-oss/druidry</url>
+        <connection>scm:git:git://github.com:ajainy/open-druidry.git</connection>
+        <developerConnection>scm:git:ssh://github.com:ajainy/open-druidry.git</developerConnection>
+        <url>https://github.com:ajainy/open-druidry</url>
     </scm>
 
     <distributionManagement>
